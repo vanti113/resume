@@ -1,0 +1,139 @@
+main {
+  padding: 10px 20px 10px 50px;
+  background-image: url("../src/linedpaper.png");
+  color: #2c3e50;
+  background-repeat: round repeat;
+}
+
+.my_pr {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: repeat(auto-fit, 1fr);
+  color: #2c3e50;
+  gap: 50px 20px;
+  margin-bottom: 50px;
+  div:nth-child(odd) {
+    font-size: 18px;
+  }
+  div:nth-child(even) {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  div:first-child {
+    font-size: 30px;
+  }
+  div:nth-child(1),
+  div:nth-child(2) {
+    display: flex;
+    align-items: center;
+  }
+  div:nth-child(2) {
+    hr {
+      width: 100%;
+    }
+  }
+  div span {
+    font-size: 13px;
+  }
+}
+.my_pr2 {
+  color: #2c3e50;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(auto-fit, 1fr);
+  gap: 30px 30px;
+  .skill {
+    div:first-child {
+      font-size: 25px;
+    }
+    i {
+      margin-right: 5px;
+    }
+    ul {
+      padding: 0px 15px;
+      li {
+        margin: 5px 5px;
+      }
+    }
+  }
+  .Portforlios {
+    div:first-child {
+      font-size: 25px;
+    }
+    i {
+      margin-right: 5px;
+    }
+    ul {
+      padding: 0px 15px;
+      li {
+        margin: 5px 5px;
+      }
+      li:nth-child(2),
+      li:nth-child(5) {
+        margin-left: 20px;
+        font-size: 15px;
+        font-weight: 300;
+      }
+      a {
+        display: block;
+        margin-left: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .hobby {
+    i {
+      margin-right: 5px;
+    }
+    div:first-child {
+      font-size: 25px;
+    }
+    ul {
+      padding: 0px 15px;
+      li {
+        margin: 10px 5px;
+      }
+    }
+  }
+  .strength {
+    i {
+      margin-right: 5px;
+    }
+    div:first-child {
+      font-size: 25px;
+    }
+    ul {
+      padding: 0px 15px;
+      li {
+        margin: 10px 5px;
+      }
+    }
+  }
+}
+.last {
+  margin-top: 40px;
+  width: 100%;
+  height: 140%;
+  background-image: url("../src/linedpaper.png");
+  .last_title {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 3fr 6fr;
+    grid-template-rows: repeat(auto-fit, 1fr);
+    color: #2c3e50;
+    gap: 50px 20px;
+    font-size: 30px;
+  }
+  .ment {
+    margin-top: 30px;
+    span {
+      font-weight: 300;
+    }
+  }
+}

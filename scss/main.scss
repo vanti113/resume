@@ -4,6 +4,9 @@ main {
   color: #2c3e50;
   background-repeat: round repeat;
 }
+#part1 {
+  margin-top: 30px;
+}
 
 .my_pr {
   width: 100%;
@@ -12,7 +15,7 @@ main {
   grid-template-columns: 1fr 5fr;
   grid-template-rows: repeat(auto-fit, 1fr);
   color: #2c3e50;
-  gap: 50px 20px;
+  gap: 45px 20px;
   margin-bottom: 50px;
   div:nth-child(odd) {
     font-size: 18px;
@@ -118,7 +121,7 @@ main {
 .last {
   margin-top: 40px;
   width: 100%;
-  height: 140%;
+  height: 160%;
   background-image: url("../src/linedpaper.png");
   .last_title {
     width: 100%;

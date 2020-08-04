@@ -172,6 +172,9 @@ main {
   color: #2c3e50;
   background-repeat: round repeat; }
 
+#part1 {
+  margin-top: 30px; }
+
 .my_pr {
   width: 100%;
   height: 100%;
@@ -179,7 +182,7 @@ main {
   grid-template-columns: 1fr 5fr;
   grid-template-rows: repeat(auto-fit, 1fr);
   color: #2c3e50;
-  gap: 50px 20px;
+  gap: 45px 20px;
   margin-bottom: 50px; }
   .my_pr div:nth-child(odd) {
     font-size: 18px; }
@@ -251,7 +254,7 @@ main {
 .last {
   margin-top: 40px;
   width: 100%;
-  height: 140%;
+  height: 160%;
   background-image: url("../src/linedpaper.png"); }
   .last .last_title {
     width: 100%;
@@ -282,3 +285,8 @@ body {
 hr {
   height: 2px;
   background-color: #2c3e50; }
+
+footer {
+  width: 100%;
+  height: 10vh;
+  background-image: url("../src/linedpaper.png"); }
